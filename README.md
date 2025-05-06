@@ -1,24 +1,26 @@
-# 🐚 My Zsh Configuration
+# ⚡️ Zsh Configuration (Oh My Zsh Edition)
 
-This is my personal `.zshrc` configuration, cleaned up for public sharing. It includes a fast and informative prompt, handy plugins, quality-of-life improvements, and useful aliases.
-
----
-
-## ✨ Features
-
-- **[Powerlevel10k](https://github.com/romkatv/powerlevel10k)** for a beautiful, fast, customizable prompt.
-- **History enhancements** for efficient shell usage.
-- **Autosuggestions** and **syntax highlighting** for safer, faster typing.
-- **Aliases** for frequently used tools.
-- **[Zoxide](https://github.com/ajeetdsouza/zoxide)** for smarter directory jumping.
-- Optional: **[macchina](https://github.com/Macchina-CLI/macchina)** for system info at shell startup.
-- Node.js setup with NVM and Corepack tweak.
+This is a modern, fast, and developer-friendly Zsh configuration built with [Oh My Zsh](https://ohmyz.sh/) and a curated list of powerful plugins.
 
 ---
 
-## 🔧 Requirements
+## 🔧 Features
 
-Install the following tools (most via [Homebrew](https://brew.sh)):
+- ⚡️ **Powerlevel10k** for a blazing fast and beautiful prompt
+- 🧠 **zsh-autosuggestions** for intelligent inline suggestions
+- ✍️ **zsh-syntax-highlighting** for clear command syntax
+- 🔍 **history-substring-search** with up/down arrows
+- 🚀 **fzf** and **fzf-tab** for fuzzy completion and navigation
+- 📂 **zoxide** for smarter `cd`
+- 📖 **zsh-completions** for better CLI autocomplete
+- 🧠 **zsh-vi-mode** for Vim-style movement in the shell
+
+---
+
+## 📦 Requirements
+
+Install the following tools:
 
 ```sh
-brew install powerlevel10k zsh-autosuggestions zsh-syntax-highlighting eza zoxide topgrade macchina
+brew install zsh powerlevel10k zsh-autosuggestions zsh-syntax-highlighting \
+  zoxide fzf eza macchina topgrade zsh-completions
