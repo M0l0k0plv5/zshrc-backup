@@ -63,4 +63,4 @@ export COREPACK_ENABLE_AUTO_PIN=0
 
 # ---- Optional: System Info ----
 # Uncomment to show system info on shell startup
-# macchina
+macchina
