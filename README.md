@@ -24,3 +24,13 @@ Install the following tools:
 ```sh
 brew install zsh powerlevel10k zsh-autosuggestions zsh-syntax-highlighting \
   zoxide fzf eza macchina topgrade zsh-completions
+
+
+Manual Plugin Installs
+
+If not installed via Homebrew or plugin managers:
+
+git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone https://github.com/zsh-users/zsh-history-substring-search ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-history-substring-search
+git clone https://github.com/zdharma-continuum/zsh-vi-mode ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-vi-mode
+git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/fzf-tab
